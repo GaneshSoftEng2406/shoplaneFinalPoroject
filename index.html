@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SHOPLANE - A Place For Shopping</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,800&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/35c398e458.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <a href="index.html" class="logo">
+        <h4>SHOP<span>LANE</span></h4>
+      </a>
+      <ul class="menu">
+        <li class="menu-item">
+          <a href="#clothing"> clothing </a>
+        </li>
+        <li class="menu-item">
+          <a href="#accessories"> accessories </a>
+        </li>
+      </ul>
+      <div id="search-wrapper">
+        <i class="fas fa-search"></i>
+        <input
+          id="search-box"
+          type="text"
+          name="search"
+          placeholder="Search for Clothing and Accessories"
+        />
+      </div>
+      <div class="icons">
+        <div class="cart">
+          <a href="checkout.html">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+            <span id="cart-count">0</span>
+          </a>
+        </div>
+        <img src="assets/img/avatar.jpg" id="user-img" />
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="slick-slider">
+        <div class="image active-img">
+          <img src="https://shoplane.netlify.app/img/img1.png" width="100%" />
+        </div>
+        <div class="image">
+          <img src="https://shoplane.netlify.app/img/img2.png" width="100%" />
+        </div>
+        <div class="image">
+          <img src="https://shoplane.netlify.app/img/img3.png" width="100%" />
+        </div>
+        <div class="image">
+          <img src="https://shoplane.netlify.app/img/img4.png" width="100%" />
+        </div>
+        <div class="btn-container">
+          <div class="button active-btn"></div>
+          <div class="button"></div>
+          <div class="button"></div>
+          <div class="button"></div>
+        </div>
+      </section>
+      <section id="clothing">
+        <h2 class="section-heading">Clothing for Men and Women</h2>
+        <div id="clothingCard" class="card-container"></div>
+      </section>
+      <section id="accessories">
+        <h2 class="section-heading">Accessories for Men and Women</h2>
+        <div id="accessoriesCard" class="card-container"></div>
+      </section>
+    </main>
+    <footer>
+      <ul id="store">
+        <li>
+          <h3>Online Store</h3>
+        </li>
+        <li><a href="#clothing">Men Clothing</a></li>
+        <li><a href="#clothing">Women Clothing</a></li>
+        <li><a href="#accessories">Men Accessories</a></li>
+        <li><a href="#accessories">Women Accessories</a></li>
+      </ul>
+      <ul id="links">
+        <li>
+          <h3>Helpful links</h3>
+        </li>
+        <li><a href="#">home</a></li>
+        <li><a href="#">about</a></li>
+        <li><a href="#">contact</a></li>
+      </ul>
+      <ul id="partner">
+        <li>
+          <h3>patners</h3>
+        </li>
+        <li><a href="#">zara</a></li>
+        <li><a href="#">pantaloons</a></li>
+        <li><a href="#">levis</a></li>
+        <li><a href="#">ucb</a></li>
+        <li><a href="#">+ many more</a></li>
+      </ul>
+      <ul id="address">
+        <li>
+          <h3>address</h3>
+        </li>
+        <li>building 101</li>
+        <li>central avenue</li>
+        <li>la - 902722</li>
+        <li>united states</li>
+      </ul>
+    </footer>
+    <img
+      src="assets/img/OKAY6Fl.png"
+      id="project-logo"
+      alt="EdYoda Project Logo"
+    />
+    <script src="assets/javaScript/script.js"></script>
+    <script src="assets/javaScript/index.js"></script>
+  </body>
+</html>
